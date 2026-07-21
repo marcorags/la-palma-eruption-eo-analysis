@@ -16,6 +16,9 @@ and used as the primary input by:
 notebooks/01_lapalma_analysis_final.ipynb
 ```
 
+> [!NOTE]
+> The canonical 204-band GeoTIFF is not included in this repository. The paths documented below refer to the expected local data layout. Running the downstream notebook requires users to provide the datastack locally.
+
 ## Canonical files
 
 The canonical datastack consists of:
@@ -26,7 +29,7 @@ data/metadata/LaPalma_unified_datastack_band_metadata.csv
 data/metadata/README_datastack.md
 ```
 
-The GeoTIFF is not distributed through GitHub because of its size. The metadata CSV and this documentation file may be tracked in the repository.
+Only the metadata CSV and this documentation file are tracked in the repository. The canonical GeoTIFF remains local and is excluded from Git because of its size.
 
 ## Raster properties
 
