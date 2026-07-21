@@ -1,0 +1,10 @@
+metric,value
+eruption_start,2021-09-19
+eruption_end,2021-12-13
+final_lava_domain_pixels,124096
+final_lava_area_ha,1240.96
+missing_final_domain_pixels,0
+extra_pixels_outside_reference,0
+observed_active_source_pixels,105519
+post_eruption_dry_support_source_pixels,4826
+topology_frontier_filled_pixels,13751

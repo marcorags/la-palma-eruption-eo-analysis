@@ -1,0 +1,4 @@
+metric,value
+sentinel2_eruption_window_dates,17.0
+MAE_reconstructed_vs_observed_ha,67.87352941176466
+bias_reconstructed_minus_observed_ha,67.87352941176466

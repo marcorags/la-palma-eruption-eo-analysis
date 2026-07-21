@@ -1,0 +1,9 @@
+check,value,expected,passed
+shape,582 x 1090,582 x 1090,True
+crs,EPSG:32628,EPSG:32628,True
+resolution_m,"(10.0, 10.0)",10 x 10,True
+band_count,204,204,True
+metadata_rows,204,204,True
+sentinel2_dates,25,25,True
+sentinel1_dates,5,5,True
+date_2021_12_14_present,True,True,True
