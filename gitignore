@@ -1,0 +1,102 @@
+# -----------------------------------------------------------------------------
+# Local Earth Observation and geospatial data
+# These inputs and analysis-ready rasters are required locally but are not
+# distributed through GitHub.
+# -----------------------------------------------------------------------------
+data/raw/
+data/interim/
+data/processed/
+data/auxiliary/
+data/ancillary/
+data/external/
+
+# Temporary metadata produced when building a candidate datastack.
+# Canonical files under data/metadata/ remain trackable.
+data/metadata/*_candidate.csv
+
+# -----------------------------------------------------------------------------
+# Large EO and geospatial file formats
+# -----------------------------------------------------------------------------
+*.tif
+*.tiff
+*.nc
+*.SAFE/
+*.gpkg
+*.gpkg-wal
+*.gpkg-shm
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.vrt
+*.img
+*.hdr
+*.aux.xml
+*.ovr
+
+# -----------------------------------------------------------------------------
+# Generated binary analysis products
+# Selected PNG figures/maps and CSV tables under outputs/ remain trackable.
+# -----------------------------------------------------------------------------
+outputs/models/
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# -----------------------------------------------------------------------------
+# Archives
+# -----------------------------------------------------------------------------
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# -----------------------------------------------------------------------------
+# Jupyter
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -----------------------------------------------------------------------------
+# Python caches, tests, and build artefacts
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# -----------------------------------------------------------------------------
+# Virtual environments and local configuration
+# -----------------------------------------------------------------------------
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# -----------------------------------------------------------------------------
+# IDE, operating-system, and temporary files
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+__MACOSX/
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.tmp
+*.log

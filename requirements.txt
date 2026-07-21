@@ -1,0 +1,32 @@
+# Notebook metadata records Python 3.11.
+# Direct runtime dependencies used by the two published notebooks.
+
+# Numerical computing and tabular analysis
+numpy
+pandas
+scipy
+
+# Machine learning and graph-based analysis
+scikit-learn
+scikit-image
+joblib
+
+# Visualisation and notebook-rendered images
+matplotlib>=3.9
+Pillow
+
+# Raster and NetCDF processing
+rasterio
+xarray
+netCDF4
+
+# Vector geospatial processing and GeoPackage I/O
+geopandas
+shapely
+pyproj
+pyogrio
+
+# Notebook runtime
+ipython
+ipykernel
+jupyterlab
